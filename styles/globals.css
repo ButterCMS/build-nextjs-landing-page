@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.animateBtn {
+  @apply transition-all duration-150 ease-linear;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
